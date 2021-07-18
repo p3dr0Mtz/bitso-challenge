@@ -1,0 +1,16 @@
+{
+  "name": "qa_challenge_bitso",
+  "version": "1.0.0",
+  "description": "A set of test scenarios using Cypress to complete QA Code Challange.",
+  "main": "index.js",
+  "scripts": {
+    "cypress" : "cypress run",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "Pedro Antonio Martinez Vazquez",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.7.0"
+  }
+}
