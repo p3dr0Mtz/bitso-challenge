@@ -44,6 +44,10 @@ Test Scripts location : /cypress/integration
 ## How To Use
 In command line run: npm test
 
+IMPORTANT : 
+- registerTest always fails if the data to used is the same in fixtures. As those users are already registered the expected modal is not displayed.
+- walletPageTest : According to the challange when selecting a crypto a warning message should be displayed, although this could not be reproduced.
+
 [Back To The Top](#QA-CODE-CHALLANGE-BITSO)
 ---
 
